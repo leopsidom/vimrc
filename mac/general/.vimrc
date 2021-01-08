@@ -57,3 +57,14 @@ inoremap <silent><expr> <Tab>
 
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
+" coc extensions
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-pyright']
+
+" autoclose brackets / curly braces etc
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
