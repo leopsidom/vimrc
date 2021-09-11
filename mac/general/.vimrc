@@ -5,6 +5,7 @@ set relativenumber
 set expandtab
 set softtabstop=2
 set shiftwidth=2
+set mouse=a
 
 set autoindent
 set smartindent
